@@ -62,10 +62,10 @@ const Testinomials = () => {
                     </div>
                 </div>
             </div>
-            <div className="sm:hidden flex flex-col items-center w-80 overflow-hidden">
+            <div className="sm:hidden flex flex-col items-center overflow-hidden">
                 {
                     testinomials.slice(firstVariable, secondVariable).map((item) => (
-                        <div key={item._id} className={`h-[280px] w-[380px] bg-gradient-to-br from-slate-950 to-slate-600 p-5 rounded-2xl flex flex-col gap-2 shadow-[20px_0_50px_rgba(255,255,255,0.5)] ${ animate ? "slide-to-left" : "slide-from-right"}`}>
+                        <div key={item._id} className={`h-[280px] w-[300px] bg-gradient-to-br from-slate-950 to-slate-600 p-5 rounded-2xl flex flex-col gap-2 shadow-[20px_0_50px_rgba(255,255,255,0.5)] ${ animate ? "slide-to-left" : "slide-from-right"}`}>
                             <div className="flex justify-between gap-20 w-full items-center">
                                 <p className="text-white text-3xl text-center">{item.company}</p>
                                 <img src={item.companyLogo} alt="" className="w-20 h-16 rounded-3xl object-center" />

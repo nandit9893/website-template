@@ -71,7 +71,7 @@ const Testinomials = () => {
                                 <img src={item.companyLogo} alt="" className="w-20 h-16 rounded-3xl object-center" />
                             </div>
                             <p className="text-2xl text-white">{item.name} <span className="text-xl text-gray-400">({item.designation})</span></p>
-                            <p className="text-gray-300 text-lg w-96">{item.feedback}</p>
+                            <p className="text-gray-300 text-lg w-80">{item.feedback}</p>
                         </div>
                     ))
                 }

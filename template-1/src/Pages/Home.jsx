@@ -22,7 +22,7 @@ const Home = () => {
         <p className="sm:text-2xl text-lg text-black p-2 sm:px-10 px-5 rounded-4xl bg-orange-600 font-semibold cursor-pointer hover:bg-orange-500 transition-colors duration-300">Get a Free Consultation</p>
         <AnchorLink className="anchor-link" href="#contact"><p className="sm:text-2xl text-lg text-black p-2 sm:px-10 px-5 rounded-4xl bg-orange-600 font-semibold cursor-pointer hover:bg-orange-500 transition-colors duration-300">Contact Us</p></AnchorLink>
       </div>
-      <div className="fixed right-1 bottom-5 z-50">
+      <div className="fixed right-3 bottom-5 z-50">
       {
         activeChat ?
         (

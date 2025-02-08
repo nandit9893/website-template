@@ -9,7 +9,7 @@ import Navbar from "./Components/Navbar";
 const App = () => {
   return (
     <div>
-      <Navbar />
+      
       <Home />
       <About />
       <Services />

@@ -11,7 +11,10 @@ const App = () => {
     <div>
       <Navbar />
       <Home />
-      
+      <About />
+      <Services />
+      <Portfolio />
+      <Contact />
     </div>
   );
 };

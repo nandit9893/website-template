@@ -6,7 +6,7 @@ const Home = () => {
   const [activeChat, setActiveChat] = useState(false);
 
   return (
-    <div id="home" className="flex flex-col items-center justify-center sm:p-0 p-5 mx-auto sm:h-[600px] h-[700px] bg-gradient-to-b from-gray-950 to-gray-800 gap-8 relative">
+    <div id="home" className="flex flex-col sm:w-full w-[350px] items-center justify-center sm:p-0 p-5 mx-auto sm:h-[600px] h-[700px] bg-gradient-to-b from-gray-950 to-gray-800 gap-8 relative">
       <p className="text-white sm:text-7xl text-3xl font-semibold">Welcome to <span className="text-orange-600" style={{ fontFamily: "Merriweather, serif", fontWeight: 600, fontStyle: "medium" }}>I'm Future</span></p>
       <p className="sm:text-2xl text-lg text-white text-center sm:w-[1000px] w-96 sm:p-0 px-4">At <span className="text-orange-600" style={{ fontFamily: "Merriweather, serif", fontWeight: 600, fontStyle: "medium" }}>I'm Future</span>, we specialize in cutting-edge IT solutions,
         including web and app development, cloud computing, AI-driven solutions,
